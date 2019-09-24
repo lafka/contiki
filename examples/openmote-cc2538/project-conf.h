@@ -38,8 +38,12 @@
 #ifndef PROJECT_CONF_H_
 #define PROJECT_CONF_H_
 /*---------------------------------------------------------------------------*/
-#define BROADCAST_CHANNEL     129
-#define NETSTACK_CONF_RDC     nullrdc_driver
+#define BROADCAST_CHANNEL       129
+#define NETSTACK_CONF_RDC       nullrdc_driver
+
+#define NETSTACK_CONF_WITH_IPV6 1
+#define STARTUP_CONF_VERBOSE    0
+#define APP_DEBUG_ENABLE        1
 /*---------------------------------------------------------------------------*/
 #endif /* PROJECT_CONF_H_ */
 /*---------------------------------------------------------------------------*/

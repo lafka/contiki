@@ -1,0 +1,10 @@
+1. Execute the below command for compilation.
+
+$ make TARGET=openmote-cc2538 BOARD_REVISION=REV_A1
+
+2. Change the 'CONTIKI_PROJECT' macro from Makefile according to the application.
+
+Ex:
+CONTIKI_PROJECT = udp-client-app
+
+3. Change the 'project-conf.h' file according to the application.
